@@ -17,7 +17,7 @@
     <link href="https://vikramvgarg.github.io/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Style CSS -->
-    <link href="https://vikramvgarg.github.io/css/style.css" rel="stylesheet">
+    <link href="https://vikramvgarg.github.io/css/style.css" rel="stylesheet">    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,7 +51,7 @@
 	    <span class="lead">Austin, Texas<br></span>
             <span class="lead">Email: vikram.v.garg (at) gmail.com<br></span>
 		<br/>
-            <span class="lead"><a href="http:">CV</a></span>
+            <span class="lead"><a href="https://vikramvgarg.github.io/vikram_garg_resume.pdf">CV</a></span>
             <ul class="social-icon">              
               <li><a href="https://www.linkedin.com/in/vikram-garg-02006012/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 	      <li><a href="https://vikramvgarg.wordpress.com"><i class="fa fa-wordpress" aria-hidden="true"></i></a></li>
@@ -81,15 +81,15 @@
         <div class="row">
             <div class="col-md-12">
                 <p>
-		     My work lies at the intersection of applied mathematics, statistics and computation.
+		  My work lies at the intersection of <i>applied mathematics</i>, <i>statistics</i> and <i>computation</i>. I am interested in data to decision problems, which seek to build predictive models from data and to use such models for making decisions.<br/> I have developed novel statistical and numerical analysis algorithms, which tackle issues such as sampling high-dimensional, nonstationary priors, inferring heavy-tailed distributions, and the need for rapid numerical simulation. I am a developer of the Finite Element simulation library, <a href="http://libmesh.github.io/">libMesh</a>, contributing extensively to its sensitivity analysis and error estimation capabilities.
                 </p>
                 <p>
 		<br/>
 		<u><i>Updates:</i></u>
 		<ul>
-<li> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Submitted manuscript "Enhanced Functional Evaluation for the Penalty Finite Element Method" to Computers & Mathematics with Applications.</li><br/>
-<li> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Submitted manuscript "Adjoint-Consistent Local Enhancement of Functional Evaluation and Error Estimation for Variational Multiscale Formulations" to SIAM Journal on Scientific Computing.</li><br/>
-<li> &nbsp; &nbsp; &nbsp; &nbsp; &bull; Co-organized mini-symposium "Adjoints in Computational Software" at USNCCM 2017.</li>
+<li> &nbsp; &bull; Sept 2018: Submitted manuscript "Enhanced Functional Evaluation for the Penalty Finite Element Method" to CAMWA.</li>
+<li> &nbsp; &bull; Apr 2018: Submitted manuscript "Adjoint-Consistent Local Enhancement of Functional Evaluation and Error Estimation for Variational Multiscale Formulations" to SISC.</li>
+<li> &nbsp; &bull; July 2017: Co-organized mini-symposium "Adjoints in Computational Software" at USNCCM.</li>
 		</ul>
                 </p>
             </div>
@@ -105,21 +105,24 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-title"><h2>Experience</h2></div>
+                <div class="section-title"><h2>Expertise & Accomplishments</h2></div>
             </div>
         </div>
         <!--.row-->
         <div class="row">
             <div class="col-md-12">
 <ul>
-<li> <i>Postdoctoral Associate</i>
-<br/><a href="Link">The University of Texas at Austin</a>.
-<p>I worked as a postdoctoral associate in the CRIOS and PECOS groups at UT Austin. The CRIOS group works on developing cutting edge ocean models for predictive simulation. The accuracy of such ocean models is superior since they incorporate extensive measurements of quantities such as ocean temperature and salinity over long time periods to constrain the unknown inputs present in most ocean models. The first part of my project with CRIOS consisted of using the existing simulation capabilities of our ocean models to better design experiments for future measurements. The second part of this project, which is still under execution, consists of developing optimal experiments, i.e., experiments guaranteed to maximize information gain about certain critical unknown parameters of our models by leveraging cutting edge ideas from spatial and computational statistics.</p> 
-<p>Before joining the CRIOS group, I worked in the PECOS group on uncertainty quantification and error analysis for complex flow models. In collaboration with Dr. Roy Stogner I developed adjoint error estimation techniques for variational multiscale (VMS) formulations of the Finite Element Method, tackling a long standing issue in applying adjoint methods to VMS formulations. We also uncovered some hitherto unknown properties of VMS formulations, which allowed us to propose principled methods to compute important VMS scaling parameters. In collaboration with Dr. Todd Oliver, I incorporated a general turbulence modeling framework in the GRINS software library, and used these turbulence modeling capabilities to quantify the effect of uncertainties in turbulence model parameters on important flow quantities such as lift and drag.</p>
-<br/>
-<li> <i>Postdoctoral Associate</i>
-<br/><a href="Link">Massachusetts Institute of Technology</a>. 
-<p>I worked as a postdoctoral associate in the ACDL group at MIT.</p>
+<li> <b><i>Statistics & Data Assimilation</i></b><br/>
+&bull; Optimal experimental design strategies for inferring high-dimensional, nonstationary ocean model parameters using <a href="http://www.r-inla.org/">R-INLA</a>.<br/>
+&bull; Density estimation algorithms targeted at inferring heavy tailed distributions without using specialized heuristics.<br/>
+&bull; First fully flexible incremental Latin Hypercube sampler enabling efficient evaluation of high dimensional response functions.<br/><br/>
+<li> <b><i>Optimization & Inference</i></b><br/>
+&bull; Adjoint based multi-model inference algorithm which enables concurrent use of models having varying fidelity, while guaranteeing error control.<br/>
+&bull; Derivative based inexact constraint application methods for optimization problems with complex constraints.<br/><br/>
+<li> <b><i>Building Advanced Simulation Algorithms & Software</i></b><br/>
+&bull; Adjoint error estimation techniques for variational multiscale (VMS) formulations of the Finite Element Method.<br/>
+&bull; Incorporated state of the error control and sensitivity analysis methods in the popular C++ simulation library <a href="http://libmesh.github.io/">libMesh</a>.<br/>
+&bull; Added general turbulence modeling framework in the <a href="https://grinsfem.github.io/">GRINS</a> simulation library.
 </ul>
 </p>
             </div>
@@ -128,6 +131,7 @@
     </div>
     <!-- .container-fluid -->
 </section>
+
 
 
 <section class="section-wrapper section-interest gray-bg">
@@ -189,6 +193,34 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
+                <div class="section-title"><h2>Teaching</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+<ul>
+<li> <i>Massachusetts Institute of Technology</i>
+<br/> Assistant Instructor: Computational Methods in Aeropsace Engineering - Spring 2013 & Spring 2014
+<br/><br/>
+<li> <i>The University of Texas at Austin</i>
+<br/> Teaching Assistant: Freshman Calculus- Fall 2007 & Spring 2008 
+</ul>
+</p>
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
+
+</section>
+<!-- .section-education -->
+
+
+<section class="section-wrapper section-service">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
                 <div class="section-title"><h2>Service</h2></div>
             </div>
         </div>
@@ -197,10 +229,10 @@
             <div class="col-md-12">
 <ul>
 <li> <i>Co-organizer </i>
-<br/><a href="Link">MS on "Adjoints in Computational Software" - USNCCM 2017</a>. 
-<br/>
+<br/>Mini Symposium on <a href="http://14.usnccm.org/MS1001">"Adjoints in Computational Software"</a> - USNCCM 2017. 
+<br/><br/>
 <li> <i>Reviewer</i>
-<br/><a href="Link">SIAM Journal on Scientific Computing, Numerische Mathematik, Computers & Mathematics with Applications, Computer Methods in Applied Mechanics & Engineering, Numerical Methods for Partial Differential Equations, International Journal for Numerical Methods in Engineering</a>. 
+<br/>SIAM Journal on Scientific Computing, Numerische Mathematik, Computers & Mathematics with Applications, Computer Methods in Applied Mechanics & Engineering, Numerical Methods for Partial Differential Equations, International Journal for Numerical Methods in Engineering. 
 </ul>
 </p>
             </div>
@@ -226,18 +258,18 @@
             <div class="col-md-12">
                 <div class="content-item">
                     <small>2007 - 2012</small>
-                    <h3>Ph.D. in Computational and Applied Mathematics</h3>
-                    <p>The University of Texas at Austin
-                    <br/>Thesis: <a href="https://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-08-6034">Coupled flow systems, adjoint techniques and uncertainty quantification</a><br/>
+                    <p><b>Ph.D. in Computational and Applied Mathematics</b><br/>
+                    The University of Texas at Austin
+                    <br/>Thesis: <a href="https://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-08-6034">Coupled Flow Systems, Adjoint Techniques and Uncertainty Quantification</a><br/>
                     Advisors: Graham Carey, Serge Prudhomme</p>
 
                 </div>
                 <!-- .experience-item -->
                 <div class="content-item">
                     <small>2003 - 2007</small>
-                    <h3>B.S. in Aerospace Engineering</h3>
-		    <h3>B.S. in Pure Mathematics</h3>
-                    <p>The University of Texas at Austin
+                    <p><b>B.S. in Aerospace Engineering<br/>
+		    B.S. in Pure Mathematics</b><br/>
+                    The University of Texas at Austin
 		    <br/>GPA: 3.97/4.00<br/></p>
                 </div>
                 <!-- .experience-item -->
@@ -250,6 +282,33 @@
 </section>
 <!-- .section-education -->
 
+<section class="section-wrapper section-experience">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Experience</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+<ul>
+<li> <i>Postdoctoral Associate</i>
+<br/><a href="https://www.ices.utexas.edu/research/centers-groups/crios/">The University of Texas at Austin</a> 2014-2017.
+<!-- <p>I worked as a postdoctoral associate in the <a href="https://www.ices.utexas.edu/research/centers-groups/crios/">CRIOS</a> and <a href="http://pecos.ices.utexas.edu/">PECOS</a> groups at UT Austin. In the CRIOS group, I worked on designing maximally informative experiments for making ocean measurements. The first part of this project consisted of using the existing simulation capabilities of our ocean models to design experiments. The second part of this project consists of developing optimal experiments, i.e., experiments guaranteed to maximize information gain about certain critical unknown parameters of our models by leveraging cutting edge ideas from spatial and computational statistics.</p>  -->
+<!-- <p>In the PECOS group on uncertainty quantification and error analysis for complex flow models. I developed adjoint error estimation techniques for variational multiscale (VMS) formulations of the Finite Element Method, tackling a long standing issue in applying adjoint methods to VMS formulations. I also incorporated a general turbulence modeling framework in the GRINS simulation library, and used these capabilities to quantify the effect of uncertainties in model parameters on important flow quantities.</p> -->
+<br/>
+<li> <i>Postdoctoral Associate</i>
+<br/><a href="https://acdl-web.mit.edu/">Massachusetts Institute of Technology</a> 2012-2014. 
+<!-- <p>I worked as a postdoctoral associate in the <a href="https://acdl-web.mit.edu/">ACDL</a> group at MIT. I used adjoint techniques to devise solution algorithms for multi-fidelity inverse problems. I also invented a new density estimator, called the Minimum Local Distance Density Estimator, which can efficiently infer heavy tailed distributions, a problem which traditionally required the use of specialized heuristics.</p> -->
+</ul>
+</p>
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
+</section>
 
 <!-- Sticky -->
 </div>
