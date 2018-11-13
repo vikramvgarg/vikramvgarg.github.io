@@ -172,10 +172,10 @@ button:focus,
     box-sizing : border-box;
     }
 
-.left-col-block {
+.left-col-block {        
     overflow     : hidden;
     -webkit-flex : 1 0 0;
-    flex         : 1 0 0;
+    flex         : 0.8 0 0;
     position     : relative;
     background   : rgba(255, 255, 255, .8);
     border-right : 1px solid #eaeaea;
@@ -183,7 +183,7 @@ button:focus,
 
 .right-col-block {
     -webkit-flex : 2 0 0;
-    flex         : 2 0 0;
+    flex         : 3 0 0;
     position     : relative;
     background   : #ffffff;
     }
@@ -261,7 +261,7 @@ button:focus,
  * NAVIGATION & HEADER STYLE
  *-----------------------------*/
 
-.header {
+.header {    
     padding  : 20px !important;
     margin   : 0;
     position : relative;
